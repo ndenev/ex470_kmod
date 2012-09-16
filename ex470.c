@@ -39,8 +39,8 @@
 #define	BLUE	1
 #define	PURPLE	2
 #define	RED	3
-#define	NUMLED	4
-#define NUMCOL	4
+#define	NUMLEDS	4
+#define NUMCOLORS	4
 
 static u_int16_t encreg, setreg;
 static struct cdev *blue_led[NUMLEDS], *red_led[NUMLEDS], *purple_led[NUMLEDS];
